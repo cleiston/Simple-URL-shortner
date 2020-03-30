@@ -1,0 +1,24 @@
+table {
+    padding: 10px;
+    margin: 50px;
+    text-align: center;
+    border-collapse: collapse;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+form { margin:20px; }
+button {background: limegreen; height: 2em; border-radius: 5px; border: none; 
+        cursor: pointer; color:white; margin: 1.5em;}
+button:hover {opacity: 0.7;}
+
+
+td, th { padding: 15px 50px; }
+th {background: #444; color: white}
+
+tr:nth-child(even) {background: #DDD}
+tr:nth-child(odd) {background: #FFF}
+
+tbody > tr:hover { opacity: .7; }
+
+.container { display: flex; justify-content: center; align-items: center; flex-direction: column;}
